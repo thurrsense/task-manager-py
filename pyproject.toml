@@ -4,9 +4,11 @@ version = "0.1.0"
 description = ""
 authors = ["thurrsense <arthur.khasanov20@gmail.com>"]
 
+
 [tool.poetry.dependencies]
 python = "^3.9"
 Django = "^4.2.4"
+psycopg2-binary = "^2.9.7"
 
 [tool.poetry.dev-dependencies]
 
